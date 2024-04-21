@@ -26,7 +26,7 @@ Utilizing this machine learning model enables us to continually update the sales
 
 ## My Contribution to the Project
 
-1. Extracting datasets from BigQuery to Python files.
+1. Extracting datasets from BigQuery to Python files according to the features of each new innovation product.
 2. Crafting the introduction for the notebook and formulating initial questions for the exploratory data analysis (EDA), aiding group members in their EDA process.
 3. Incorporating bar charts for the Category and Manufacturer fields to gain a holistic understanding of category positions across all years, rather than segmenting by year.
 4. Consolidating all individual EDA analyses, comprising both Python notebooks and Tableau graphs, into a single Python Notebook for group submission.
@@ -34,7 +34,13 @@ Utilizing this machine learning model enables us to continually update the sales
 6. Developing Prophet models for the innovation products alongside visualizations and hyperparameter tuning for each dataset individually.
 7. Integrating models contributed by team members and synthesizing findings to present conclusions that reflect the outcomes derived from the models.
 
-##
+## Business Value of the Solution
+
+The prophet model has provided significant results for the innovation products that are being planned. With the MAPE value as less as 9.38 percent we can see that the forecasted values have the true positive value more than 90% of times. 
+
+For the 1st innovation product with the flavor plum, we find that the MAPE is around 29, which means that Forecasting is correct 70% of the time. For the 2nd innovation product with the flavor Avacado, the Forecast is corect 90% of the times as the MAPE value is only 10, which is similar to the 3rd innovation product with the flavor kiwano as well.
+
+Apart from the percentage of forecast, we had found answers for the Questions asked like which 13 weeks is best for the Products and how the sales for Avacado product during the time of Easter which is found to have the demand of around 7000-9000 units each week. This provided the 
 
 
 
