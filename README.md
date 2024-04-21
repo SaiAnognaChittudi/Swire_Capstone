@@ -26,11 +26,15 @@ Utilizing this machine learning model enables us to continually update the sales
 
 ## My Contribution to the Project
 
+1. Extracting datasets from BigQuery to Python files.
+2. Crafting the introduction for the notebook and formulating initial questions for the exploratory data analysis (EDA), aiding group members in their EDA process.
+3. Incorporating bar charts for the Category and Manufacturer fields to gain a holistic understanding of category positions across all years, rather than segmenting by year.
+4. Consolidating all individual EDA analyses, comprising both Python notebooks and Tableau graphs, into a single Python Notebook for group submission.
+5. Initiating data checks in BigQuery to ensure alignment of attributes with the New Innovation products for each question, thereby optimizing forecast accuracy.
+6. Developing Prophet models for the innovation products alongside visualizations and hyperparameter tuning for each dataset individually.
+7. Integrating models contributed by team members and synthesizing findings to present conclusions that reflect the outcomes derived from the models.
 
-
-
-
-
+##
 
 
 
