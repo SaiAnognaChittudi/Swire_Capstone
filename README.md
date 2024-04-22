@@ -34,13 +34,43 @@ Utilizing this machine learning model enables us to continually update the sales
 6. Developing Prophet models for the innovation products alongside visualizations and hyperparameter tuning for each dataset individually.
 7. Integrating models contributed by team members and synthesizing findings to present conclusions that reflect the outcomes derived from the models.
 
-## Business Value of the Solution
+## Business Value of Solution
 
 The prophet model has provided significant results for the innovation products that are being planned. With the MAPE value as less as 9.38 percent we can see that the forecasted values have the true positive value more than 90% of times. 
 
 For the 1st innovation product with the flavor plum, we find that the MAPE is around 29, which means that Forecasting is correct 70% of the time. For the 2nd innovation product with the flavor Avacado, the Forecast is corect 90% of the times as the MAPE value is only 10, which is similar to the 3rd innovation product with the flavor kiwano as well.
 
-Apart from the percentage of forecast, we had found answers for the Questions asked like which 13 weeks is best for the Products and how the sales for Avacado product during the time of Easter which is found to have the demand of around 7000-9000 units each week. This provided the 
+Apart from the percentage of forecast, we had found answers for the Questions asked like which 13 weeks is best for the Products and how the sales for Avacado product during the time of Easter which is found to have the demand of around 7000-9000 units each week. This provides the Swire the correct estimate for each week and thus reducing the cost of underproduction and overproduction for these products.
+
+## Difficulties faced by the Group during project
+
+The primary challenge lies in handling the massive volume of data, which poses difficulties in reading and processing within Python notebooks due to substantial computing requirements. As a solution, our group opted to retrieve only the necessary data from BigQuery, leveraging SQL coding to make the required modifications to the data.
+
+Following this, another challenge emerges in evaluating data quality, comprehending column distributions, and addressing missing values. These obstacles are effectively managed within the EDA notebook. Subsequently, comprehending the intricate time-series patterns encompassing holidays and seasonality variations posed a significant challenge during model development.
+
+The final challenge entails selecting and refining forecasting models, such as XGBoost, ARIMA, SARIMA, Random Forest, and Prophet. Achieving optimal performance necessitated iterative experimentation, given the complexity of sales data for innovation products, where direct historical data is unavailable.
+
+
+## Learnings from the project
+
+The project provided valuable learning experiences and insights, contributing to both technical and collaborative skills. Here are some key takeaways:
+
+### 1. Data Handling and Preprocessing: 
+Dealing with real-world datasets involved mastering techniques for data cleaning, handling missing values, and preprocessing to ensure the quality and integrity of the data.
+
+### 2. Time Series Forecasting: 
+Acquiring a deep understanding of time series forecasting techniques, including the implementation of XGBoost,ARIMA,SARIMA and Prophet models, enriched our knowledge in effectively capturing and predicting complex patterns within sequential data.
+
+### 3. Collaborative Teamwork: 
+Working within a team taught the importance of effective collaboration, clear communication, and coordinating individual contributions to ensure a cohesive and comprehensive project outcome.
+
+### 4. Problem-Solving and Adaptability: 
+Overcoming challenges, such as data integration complexities and model selection, enhanced problem-solving skills. Adaptability to evolving requirements and continuous refinement of approaches were crucial.
+
+### 5. Presentation and Communication Skills: 
+Preparing and presenting results to stakeholders improved our ability to convey technical concepts in a clear and concise manner, fostering effective communication with both technical and non-technical audiences.
+
+### Overall, the project provided a holistic learning experience that transcended technical aspects, emphasizing the importance of collaboration, adaptability, and a business-oriented mindset in the field of data analytics.
 
 
 
